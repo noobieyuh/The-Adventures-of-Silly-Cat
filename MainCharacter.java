@@ -8,13 +8,21 @@ public class MainCharacter {
         this.role = role;
     }
 
+    // returns name
     public String getName()
     {
         return name;
     }
 
+    // returns role
     public String getRole()
     {
         return role;
+    }
+
+    // Awaken role - best role in game
+    public void setRole(String awakenRole)
+    {
+        role = awakenRole;
     }
 }

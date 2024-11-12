@@ -139,7 +139,6 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         // end of chapter 1
         // start of chapter 2
-
         System.out.println("Chapter 2: Chaos\n");
         TimeUnit.SECONDS.sleep(3);
         System.out.println("Moon: Wow... This is awful!");
@@ -154,6 +153,22 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println(mainName + ": What did dogs do to you?");
         TimeUnit.SECONDS.sleep(2);
-        
+        System.out.println("Moon: It's a long story really...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Uh huh...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: ...Are you doubting me?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Maybe... yeah, I am.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: You're no better than the dogs " + mainName + "... Anyways, let's get back on track.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\n(Oh, right.)\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Let's check on the dogs, Moon.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Sure, you take the lead...");
+        TimeUnit.SECONDS.sleep(2);
+
     }
 }
