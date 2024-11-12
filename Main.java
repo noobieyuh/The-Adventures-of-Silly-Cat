@@ -207,11 +207,14 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("\nWait a minute, thats...\n");
         TimeUnit.SECONDS.sleep(2);
+        // assign monster name
         System.out.println("Enter the monster's name: ");
         String mainMonster = input.nextLine();
-        System.out.println("Type a number: 100 - 1000");
+        // assign monster hp
+        System.out.println("Type a number: 100 - 500");
         int monsterHP = input.nextInt();
-        System.out.println("Does this monster have: ");
+        // assign monster attack
+        System.out.println("What attack will the monster have?: ");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("\n1. Demonic Grip");
         TimeUnit.SECONDS.sleep(2);
@@ -225,6 +228,13 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("6. Fury rush");
         TimeUnit.SECONDS.sleep(2);
-        
+        System.out.println("7. Deep beats");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("8. Fish slap");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("9. Squishy slippy punch");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("10. Akward silence");
+        TimeUnit.SECONDS.sleep(2);
     }
 }
