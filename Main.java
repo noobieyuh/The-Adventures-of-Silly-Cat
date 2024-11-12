@@ -129,7 +129,7 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Moon: Wow! Good to know you haven't lost that many memories...\n");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("\nYou hear a bell ring in the distance...");
+        System.out.println("You hear a bell ring in the distance...");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Moon: I guess it's that time already, huh?");
         TimeUnit.SECONDS.sleep(2);
@@ -139,7 +139,7 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         // end of chapter 1
         // start of chapter 2
-        System.out.println("Chapter 2: Chaos\n");
+        System.out.println("\nChapter 2: Chaos\n");
         TimeUnit.SECONDS.sleep(3);
         System.out.println("Moon: Wow... This is awful!");
         TimeUnit.SECONDS.sleep(2);
@@ -169,6 +169,28 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Moon: Sure, you take the lead...");
         TimeUnit.SECONDS.sleep(2);
-
+        System.out.println(mainName + ": Yep, follow my lead!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + " and Moon travel to the nearby village to see what's happening.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("???: Hey! You two! What are you doing here?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: We're here to see what all the commotion is about...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("???: You guys don't seem that bad...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": We come in peace, uhh...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Sun. My name is Sun.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\n(Moon and Sun? Huh, that's strange...)\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Sun..?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Moon? Is that you?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Do you guys know each other?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: It's complicated...");
     }
 }

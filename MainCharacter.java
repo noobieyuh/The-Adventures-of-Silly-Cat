@@ -1,4 +1,6 @@
-public class MainCharacter {
+public class MainCharacter
+{
+
     private String name;
     private String role;
 
