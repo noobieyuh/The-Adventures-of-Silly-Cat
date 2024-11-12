@@ -51,7 +51,9 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("???: Finally, it took me " + (int)((Math.random() * 60) + 2) + " minutes to wake you up!");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("???: So, what's your name?");
+        System.out.println("???: So, what's your name?\n");
+
+        System.out.println("Enter your name: \n");
 
         // User input for name
         String mainName = input.nextLine();
@@ -192,5 +194,37 @@ public class Main {
         System.out.println(mainName + ": Do you guys know each other?");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Moon: It's complicated...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: I guess you could say that...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nYou feel the ground shake...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nThe sky turns dark...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": What's going on?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: It's approaching...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nWait a minute, thats...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Enter the monster's name: ");
+        String mainMonster = input.nextLine();
+        System.out.println("Type a number: 100 - 1000");
+        int monsterHP = input.nextInt();
+        System.out.println("Does this monster have: ");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\n1. Demonic Grip");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("2. World's end");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("3. Star strike");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("4. Blasty Blast");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("5. Decompose");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("6. Fury rush");
+        TimeUnit.SECONDS.sleep(2);
+        
     }
 }
