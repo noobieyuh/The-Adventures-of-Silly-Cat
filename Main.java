@@ -131,7 +131,7 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Moon: Wow! Good to know you haven't lost that many memories...\n");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("You hear a bell ring in the distance...");
+        System.out.println("You hear a bell ring in the distance...\n");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Moon: I guess it's that time already, huh?");
         TimeUnit.SECONDS.sleep(2);
@@ -142,7 +142,7 @@ public class Main {
         // end of chapter 1
         // start of chapter 2
         System.out.println("\nChapter 2: Chaos\n");
-        TimeUnit.SECONDS.sleep(3);
+        TimeUnit.SECONDS.sleep(5);
         System.out.println("Moon: Wow... This is awful!");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Moon: There's so many dogs... everywhere!");
@@ -171,9 +171,9 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Moon: Sure, you take the lead...");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println(mainName + ": Yep, follow my lead!");
+        System.out.println(mainName + ": Yep, follow my lead!\n");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println(mainName + " and Moon travel to the nearby village to see what's happening.");
+        System.out.println(mainName + " and Moon travel to the nearby village to see what's happening.\n");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("???: Hey! You two! What are you doing here?");
         TimeUnit.SECONDS.sleep(2);
@@ -197,7 +197,7 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Sun: I guess you could say that...");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("\nYou feel the ground shake...\n");
+        System.out.println("\nYou feel the ground shake...");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("\nThe sky turns dark...\n");
         TimeUnit.SECONDS.sleep(2);
@@ -208,11 +208,12 @@ public class Main {
         System.out.println("\nWait a minute, thats...\n");
         TimeUnit.SECONDS.sleep(2);
         // assign monster name
-        System.out.println("Enter the monster's name: ");
+        System.out.print("Enter the monster's name: ");
+        System.out.println("\n");
         String mainMonster = input.nextLine();
+
         // assign monster hp
-        System.out.println("Type a number: 100 - 500");
-        int monsterHP = input.nextInt();
+        int monsterHP = (int)((Math.random() * 200) + 100);
         // assign monster attack
         System.out.println("What attack will the monster have?: ");
         TimeUnit.SECONDS.sleep(2);
@@ -279,10 +280,34 @@ public class Main {
         {
             monsterAttack = "Awkward silence";
         }
-        if(monsterChoice <= 0 || monsterChoice > 10)
+        if(monsterChoice < 1 || monsterChoice > 10)
         {
             System.out.println("You did not select any of the choices provided, defaulting to 10. Awkward silence.");
             monsterAttack = "Awkward silence";
         }
+        // end of monster attack
+        // setting monster level to a random int
+        int monsterLevel = (int)((Math.random() * 100) + 1);
+        Monster firstMonster = new Monster(mainMonster, monsterHP, monsterAttack, monsterLevel);
+        // end of monster
+        // continue
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": That's " + mainMonster + "!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Who?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Who is " + mainMonster + "..?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainMonster + ": Mwahahaha! It is I, " + mainMonster + "! Here to destroy your village!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon + Sun: Oh no!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": I won't let you destroy the village " + mainMonster + "!");
+        TimeUnit.SECONDS.sleep(2);
+        // end of chapter 2
+        // start of chapter 3
+        System.out.println("\nChapter 3: War of Cats and Dogs\n");
+        TimeUnit.SECONDS.sleep(5);
+        
     }
 }
