@@ -216,13 +216,13 @@ public class Main {
         // assign monster attack
         System.out.println("What attack will the monster have?: ");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("\n1. Demonic Grip");
+        System.out.println("\n1. Demonic grip");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("2. World's end");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("3. Star strike");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("4. Blasty Blast");
+        System.out.println("4. Blasty blast");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("5. Decompose");
         TimeUnit.SECONDS.sleep(2);
@@ -234,7 +234,55 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("9. Squishy slippy punch");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("10. Akward silence");
+        System.out.println("10. Awkward silence");
         TimeUnit.SECONDS.sleep(2);
+        // user choice
+        String monsterAttack = "";
+        int monsterChoice = input.nextInt();
+        if(monsterChoice == 1)
+        {
+            monsterAttack = "Demonic grip";
+        }
+        if(monsterChoice == 2)
+        {
+            monsterAttack = "World's end";
+        }
+        if(monsterChoice == 3)
+        {
+            monsterAttack = "Star strike";
+        }
+        if(monsterChoice == 4)
+        {
+            monsterAttack = "Blasty blast";
+        }
+        if(monsterChoice == 5)
+        {
+            monsterAttack = "Decompose";
+        }
+        if(monsterChoice == 6)
+        {
+            monsterAttack = "Fury rush";
+        }
+        if(monsterChoice == 7)
+        {
+            monsterAttack = "Deep beats";
+        }
+        if(monsterChoice == 8)
+        {
+            monsterAttack = "Fish slap";
+        }
+        if(monsterChoice == 9)
+        {
+            monsterAttack = "Squishy slippy punch";
+        }
+        if(monsterChoice == 10)
+        {
+            monsterAttack = "Awkward silence";
+        }
+        if(monsterChoice <= 0 || monsterChoice > 10)
+        {
+            System.out.println("You did not select any of the choices provided, defaulting to 10. Awkward silence.");
+            monsterAttack = "Awkward silence";
+        }
     }
 }
