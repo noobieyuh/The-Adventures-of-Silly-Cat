@@ -125,7 +125,7 @@ public class Main {
         }
         // end of role select
         // making a MainCharacter class
-        MainCharacter protagonist = new MainCharacter(mainName, userRole);
+        MainCharacter protagonist = new MainCharacter(mainName, userRole, (int)(Math.random() * 200) + 100);
         TimeUnit.SECONDS.sleep(2);
         System.out.println(mainName + ": I remember... I'm a " + userRole + "! I think...");
         TimeUnit.SECONDS.sleep(2);
@@ -308,6 +308,63 @@ public class Main {
         // start of chapter 3
         System.out.println("\nChapter 3: War of Cats and Dogs\n");
         TimeUnit.SECONDS.sleep(5);
-        
+        System.out.println(mainMonster + ": You got jokes, " + mainName + ". Try to hit me.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": I wasn't joking. It's time for me to end you!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: " + mainName + ", " + "you are about to enter your first battle!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: First battle huh? You better not lose, " + mainName + ".");
+        TimeUnit.SECONDS.sleep(2);
+        // add first battle here tutorial
+        System.out.println("\nThis is a scripted battle, so you're going to lose and get embarrassed... c:");
+        // display names
+        TimeUnit.SECONDS.sleep(2);
+        // while true for scripted battle and unique code for this part
+        int mainHP = protagonist.getHealth();
+        boolean battleActive = true;
+        while (battleActive)
+        {
+            firstMonster.printMonster();
+            int randomDamagePlus = (int)((Math.random() * 200) + 100);
+            System.out.println("\n" + mainName + "'s HP: " + mainHP);
+            System.out.println();
+            TimeUnit.SECONDS.sleep(1);
+            System.out.println(mainMonster + "'s HP: " + firstMonster.getHealth());
+            TimeUnit.SECONDS.sleep(1);
+            System.out.println(mainMonster + " uses " + monsterAttack + " on " + mainName + "!");
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println("It did " + randomDamagePlus + " damage!");
+            TimeUnit.SECONDS.sleep(1);
+            mainHP -= randomDamagePlus;
+            if(mainHP < 1)
+            {
+                mainHP = 0;
+                System.out.println(mainName + "'s HP is now at " + mainHP + ".");
+                System.out.println(mainMonster + " has won...");
+                break;
+            }
+            else
+            {
+                System.out.println(mainName + "'s HP is now at " + mainHP + ".");
+            }
+        }
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainMonster + ": Wow, you suck at fighting...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Whatever, you cheated.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: I agree with " + mainMonster + ".");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: I expected more from you, " + mainName);
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": You guys too? Come on, that was my first battle");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Yeah, and you lost so fast");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: I guess you tried your best, " + mainName);
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainMonster + ": You know what? I won't destroy the village now... our battle was very fun, " + mainName + ". Until we meet again...");
+        TimeUnit.SECONDS.sleep(2);
     }
 }

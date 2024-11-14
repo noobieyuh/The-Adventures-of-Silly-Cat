@@ -1,6 +1,5 @@
 public class Monster
 {
-
     private int health;
     private String attack;
     private String name;
@@ -32,6 +31,30 @@ public class Monster
     public int getLevel()
     {
         return level;
+    }
+
+    public void printMonster()
+    {
+        System.out.println("Monster name: " + name);
+        System.out.println("Level: " + level);
+        System.out.println();
+
+        System.out.println("                      ^\\    ^                  ");
+        System.out.println("                      / \\\\  / \\               ");
+        System.out.println("                     /.  \\\\/   \\      |\\___/|   ");
+        System.out.println("  *----*           / / |  \\\\    \\  __/  O  O\\   ");
+        System.out.println("  |   /          /  /  |   \\\\    \\_\\/  \\     \\     ");
+        System.out.println(" / /\\/         /   /   |    \\\\   _\\/    '@___@      ");
+        System.out.println("/  /         /    /    |     \\\\ _\\/       |U");
+        System.out.println("|  |       /     /     |      \\\\\\/        |");
+        System.out.println("\\  |     /_     /      |       \\\\  )   \\ _|_");
+        System.out.println("\\   \\       ~-./_ _    |    .- ; (  \\_ _ _,\\'");
+        System.out.println("~    ~.           .-~-.|.-*      _        {-,");
+        System.out.println(" \\      ~-. _ .-~                 \\      /\\'");
+        System.out.println("  \\                   }            {   .*");
+        System.out.println("   ~.                 '-/        /.-~----.");
+        System.out.println("     ~- _             /        >..----.\\\\\\");
+        System.out.println("         ~ - - - - ^}_ _ _ _ _ _ _.-\\\\\\");
     }
 
     public void setHealth(int mainAttack)
