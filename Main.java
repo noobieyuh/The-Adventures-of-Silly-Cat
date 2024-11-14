@@ -6,11 +6,10 @@ import java.util.concurrent.TimeUnit;
 public class Main {
     public static void main(String[] args) throws InterruptedException, IOException
     {
-        // The Adventures of Silly Cat - By noobieyuh
+        // The Adventures of Silly Cat - By noobieyuh <3
         
         // Adding variables and more
         Scanner input = new Scanner(System.in);
-
         // Introduction sorta
         System.out.print("Welcome to");
         TimeUnit.SECONDS.sleep(1);
@@ -20,7 +19,6 @@ public class Main {
         TimeUnit.SECONDS.sleep(1);
         System.out.println(".\n");
         TimeUnit.SECONDS.sleep(1);
-
         // Title screen
         System.out.println("___________.__                _____       .___                    __                                        _____    _________.__.__  .__          _________         __   ");
         System.out.println("\\__    ___/|  |__   ____     /  _  \\    __| _/__  __ ____   _____/  |_ __ _________   ____   ______   _____/ ____\\  /   _____/|__|  | |  | ___.__. \\_   ___ \\_____ _/  |_ ");
@@ -29,14 +27,13 @@ public class Main {
         System.out.println("  |____|   |___|  /\\___  > \\____|__  /\\____ |  \\_/  \\___  >___|  /__| |____/ |__|    \\___  >____  >  \\____/|__|    /_______  /|__|____/____/ ____|  \\______  (____  /__|  ");
         System.out.println("                \\/     \\/          \\/      \\/           \\/     \\/                        \\/     \\/                         \\/              \\/              \\/     \\/      ");
         System.out.println("\nMade with love by noobieyuh <3\n");
-
+        // press to start
         System.out.println("Press enter to continue...");
         input.nextLine();
-
         // start of chapter 1
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Chapter 1: Awakening\n");
-        TimeUnit.SECONDS.sleep(3);
+        TimeUnit.SECONDS.sleep(5);
         System.out.println("...");
         TimeUnit.SECONDS.sleep(1);
         System.out.println("...");
@@ -51,10 +48,9 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("???: Finally, it took me " + (int)((Math.random() * 60) + 2) + " minutes to wake you up!");
         TimeUnit.SECONDS.sleep(2);
+        // name
         System.out.println("???: So, what's your name?\n");
-
         System.out.println("Enter your name: \n");
-
         // User input for name
         String mainName = input.nextLine();
         System.out.println("???: " + mainName + "... huh. I never heard that name before.");
@@ -211,7 +207,6 @@ public class Main {
         System.out.print("Enter the monster's name: ");
         System.out.println("\n");
         String mainMonster = input.nextLine();
-
         // assign monster hp
         int monsterHP = (int)((Math.random() * 200) + 100);
         // assign monster attack
@@ -332,6 +327,7 @@ public class Main {
             TimeUnit.SECONDS.sleep(1);
             System.out.println(mainMonster + "'s HP: " + firstMonster.getHealth());
             TimeUnit.SECONDS.sleep(1);
+            System.out.println("(You feel as if your body is frozen. You can't attack.)");
             System.out.println(mainMonster + " uses " + monsterAttack + " on " + mainName + "!");
             TimeUnit.SECONDS.sleep(2);
             System.out.println("It did " + randomDamagePlus + " damage!");
@@ -366,5 +362,19 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println(mainMonster + ": You know what? I won't destroy the village now... our battle was very fun, " + mainName + ". Until we meet again...");
         TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": All part of my master plan. I was 2 steps ahead.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Be honest " + mainName + ", you didn't have a plan didn't you?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nYeah I really didn't...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: It's whatever, they're gone now. Good job " + mainName + ".");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nThat monster might be a huge problem down the line... I need to get stronger...");
+        TimeUnit.SECONDS.sleep(2);
+        // end of chapter 3
+        // start of chapter 4
+        System.out.println("\nChapter 4: Recovery");
+        TimeUnit.SECONDS.sleep(5);
     }
 }
