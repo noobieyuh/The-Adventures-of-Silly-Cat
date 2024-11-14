@@ -372,9 +372,46 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("\nThat monster might be a huge problem down the line... I need to get stronger...");
         TimeUnit.SECONDS.sleep(2);
+        System.out.println("\n(You feel dizzy...)\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("(You passed out...)\n");
+        TimeUnit.SECONDS.sleep(2);
         // end of chapter 3
         // start of chapter 4
         System.out.println("\nChapter 4: Recovery");
         TimeUnit.SECONDS.sleep(5);
+        System.out.println("It's... so dark...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\n(You feel a paw touching your hand...)\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Huh..?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\n(You open your eyes slowly... you see Moon next to you.)\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: " + mainName + "! You're awake...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Oh, " + mainName + ", what's up? How are you feeling?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Ugh... What happened?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: You don't remember?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: You lost to " + mainMonster + ", it wasn't even close...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nWow, now I wish I didn't remember...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Oh, I did? Wow.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: We need to train and get stronger if we want to defeat that monster!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: I agree with you Moon. What if that monster comes back later?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Before we start training, I need to recover...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Oh, right. Me and Sun got you some food, hopefully this speeds up your recovery.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": You did?");
+        TimeUnit.SECONDS.sleep(2);
+        
     }
 }
