@@ -439,5 +439,6 @@ public class Main {
         System.out.println("???: I know you can hear me...");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("\nThis is the end of the demo. I know it felt a little short and rushed, but I will add more later on.\n");
+        System.out.println("Look out for future updates!");
     }
 }
