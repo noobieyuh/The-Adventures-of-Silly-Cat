@@ -412,6 +412,32 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println(mainName + ": You did?");
         TimeUnit.SECONDS.sleep(2);
-        
+        System.out.println("Sun: Yeah, we felt bad we didn't do anything...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Yeah, you guys just watched me get destroyed.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Well, what happened, happened");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: If only you could go back in time, huh?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Yeah, if only I could.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\n(A bell rings in the distance.)\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Hearing that bell gives me horrible flashbacks.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Me and Sun will go check it out, you stay here, " + mainName + ".");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Well, if you say so.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nHopefully nothing bad happens...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("???: " + mainName + ", you must save them...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nHuh? I think I'm hearing things.\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("???: I know you can hear me...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nThis is the end of the demo. I know it felt a little short and rushed, but I will add more later on.\n");
     }
 }
