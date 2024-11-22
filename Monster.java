@@ -33,12 +33,12 @@ public class Monster
         return level;
     }
 
-    public void printMonster()
+    public void printDragonMonster()
     {
         System.out.println("Monster name: " + name);
         System.out.println("Level: " + level);
         System.out.println();
-
+        // dragon
         System.out.println("                      ^\\    ^                  ");
         System.out.println("                      / \\\\  / \\               ");
         System.out.println("                     /.  \\\\/   \\      |\\___/|   ");
@@ -55,6 +55,22 @@ public class Monster
         System.out.println("   ~.                 '-/        /.-~----.");
         System.out.println("     ~- _             /        >..----.\\\\\\");
         System.out.println("         ~ - - - - ^}_ _ _ _ _ _ _.-\\\\\\");
+    }
+
+    public void printMiceMonster()
+    {
+        System.out.println("Monter name: " + name);
+        System.out.println("Level: " + level);
+        System.out.println();
+        // mice
+        System.out.println("      _._");
+        System.out.println("   .-'   `");
+        System.out.println(" __|__");
+        System.out.println("/     \\");
+        System.out.println("|()_()|");
+        System.out.println("\\{o o}/     ");
+        System.out.println(" =\\o/=");
+        System.out.println("  ^ ^");
     }
 
     public void setHealth(int mainAttack)

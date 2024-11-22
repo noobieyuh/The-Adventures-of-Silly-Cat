@@ -18,7 +18,7 @@ public class Main {
         System.out.print(".");
         TimeUnit.SECONDS.sleep(1);
         System.out.println(".\n");
-        TimeUnit.SECONDS.sleep(1);
+        TimeUnit.SECONDS.sleep(2);
         // Title screen
         System.out.println("___________.__                _____       .___                    __                                        _____    _________.__.__  .__          _________         __   ");
         System.out.println("\\__    ___/|  |__   ____     /  _  \\    __| _/__  __ ____   _____/  |_ __ _________   ____   ______   _____/ ____\\  /   _____/|__|  | |  | ___.__. \\_   ___ \\_____ _/  |_ ");
@@ -26,7 +26,11 @@ public class Main {
         System.out.println("  |    |   |   Y  \\  ___/  /    |    \\/ /_/ | \\   /\\  ___/|   |  \\  | |  |  /|  | \\/\\  ___/ \\___ \\  (  <_> )  |     /        \\|  |  |_|  |_\\___  | \\     \\____/ __ \\|  |");
         System.out.println("  |____|   |___|  /\\___  > \\____|__  /\\____ |  \\_/  \\___  >___|  /__| |____/ |__|    \\___  >____  >  \\____/|__|    /_______  /|__|____/____/ ____|  \\______  (____  /__|  ");
         System.out.println("                \\/     \\/          \\/      \\/           \\/     \\/                        \\/     \\/                         \\/              \\/              \\/     \\/      ");
-        System.out.println("\nMade with love by noobieyuh <3\n");
+        System.out.println("\n(All ASCII Art comes from https://www.asciiart.eu/)\n");
+        // made with love
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Made with love by noobieyuh <3\n");
+        TimeUnit.SECONDS.sleep(2);
         // press to start
         System.out.println("Press enter to continue...");
         input.nextLine();
@@ -35,16 +39,16 @@ public class Main {
         System.out.println("Chapter 1: Awakening\n");
         TimeUnit.SECONDS.sleep(5);
         System.out.println("...");
-        TimeUnit.SECONDS.sleep(1);
+        TimeUnit.SECONDS.sleep(2);
         System.out.println("...");
-        TimeUnit.SECONDS.sleep(1);
+        TimeUnit.SECONDS.sleep(2);
         System.out.println("...");
-        TimeUnit.SECONDS.sleep(1);
+        TimeUnit.SECONDS.sleep(2);
         System.out.println("\n???: Hey, wake up!");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("You wake up in what appears to be a cabin.");
+        System.out.println("(You wake up in what appears to be a cabin.)");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("You see a black cat holding their paw out.");
+        System.out.println("(You see a black cat holding their paw out.)");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("???: Finally, it took me " + (int)((Math.random() * 60) + 2) + " minutes to wake you up!");
         TimeUnit.SECONDS.sleep(2);
@@ -62,15 +66,15 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Moon: Well, you're probably wondering why you're in this cabin.");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("\nYou do wonder.\n");
+        System.out.println("\n(You do wonder.)\n");
         TimeUnit.SECONDS.sleep(2);
         System.out.println(mainName + ": Yeah, why am I in this cabin..?");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Moon: Well... you sorta just, appeared.");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("\n(Huh..?)\n");
+        System.out.println("\nHuh..?\n");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("(I just... appeared?)\n");
+        System.out.println("I just... appeared?\n");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Moon: Judging by your face, you must be confused as well...");
         TimeUnit.SECONDS.sleep(2);
@@ -80,17 +84,17 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         // role assignment
         String userRole = "";
-        System.out.println("(...My purpose here? I was a...)\n");
+        System.out.println("...My purpose here? I was a...\n");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("1. Wizard - A powerful being able to conjure spells.");
+        System.out.println("1. Wizard - A powerful being able to conjure spells. (More magicial skills down the line)");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("2. Warrior - Swords and shields, you can move and fight.");
+        System.out.println("2. Warrior - Swords and shields, you can move and fight. (Base weapon damage +10)");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("3. Tank - Big and bad. You can take a hit.");
+        System.out.println("3. Tank - Big and bad. You can take a hit. (More health, less movement...)");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("4. Thief - Thiefs take goodies you can use anytime.");
+        System.out.println("4. Thief - Thiefs take goodies you can use anytime. (You will be able to take items from enemies, not now, but later)");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("5. Average Joe - Civilian level...\n");
+        System.out.println("5. Average Joe - Civilian level... (No advantages, no disadvantages)\n");
         TimeUnit.SECONDS.sleep(2);
         // selecting roles
         int roleSelect = input.nextInt();
@@ -121,13 +125,13 @@ public class Main {
         }
         // end of role select
         // making a MainCharacter class
-        MainCharacter protagonist = new MainCharacter(mainName, userRole, (int)(Math.random() * 200) + 100);
+        MainCharacter protagonist = new MainCharacter(mainName, userRole, (int)(Math.random() * 200) + 100, 1);
         TimeUnit.SECONDS.sleep(2);
-        System.out.println(mainName + ": I remember... I'm a " + userRole + "! I think...");
+        System.out.println(mainName + ": I remember... I'm a " + userRole + "! I think... I might be wrong, but that's fine...");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Moon: Wow! Good to know you haven't lost that many memories...\n");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("You hear a bell ring in the distance...\n");
+        System.out.println("(You hear a bell ring in the distance...)\n");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Moon: I guess it's that time already, huh?");
         TimeUnit.SECONDS.sleep(2);
@@ -181,7 +185,7 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Sun: Sun. My name is Sun.");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("\n(Moon and Sun? Huh, that's strange...)\n");
+        System.out.println("\nMoon and Sun? Huh, that's strange...\n");
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Moon: Sun..?");
         TimeUnit.SECONDS.sleep(2);
@@ -193,9 +197,9 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Sun: I guess you could say that...");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("\nYou feel the ground shake...");
+        System.out.println("\n(You feel the ground shake...)");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("\nThe sky turns dark...\n");
+        System.out.println("\n(The sky turns dark...)\n");
         TimeUnit.SECONDS.sleep(2);
         System.out.println(mainName + ": What's going on?");
         TimeUnit.SECONDS.sleep(2);
@@ -206,6 +210,7 @@ public class Main {
         // assign monster name
         System.out.print("Enter the monster's name: ");
         System.out.println("\n");
+        input.nextLine();
         String mainMonster = input.nextLine();
         // assign monster hp
         int monsterHP = (int)((Math.random() * 200) + 100);
@@ -277,7 +282,7 @@ public class Main {
         }
         if(monsterChoice < 1 || monsterChoice > 10)
         {
-            System.out.println("You did not select any of the choices provided, defaulting to 10. Awkward silence.");
+            System.out.println("You did not select any of the choices provided, defaulting to 10. Awkward silence. You did this, not me >:c");
             monsterAttack = "Awkward silence";
         }
         // end of monster attack
@@ -312,7 +317,7 @@ public class Main {
         System.out.println("Sun: First battle huh? You better not lose, " + mainName + ".");
         TimeUnit.SECONDS.sleep(2);
         // add first battle here tutorial
-        System.out.println("\nThis is a scripted battle, so you're going to lose and get embarrassed... c:");
+        System.out.println("\n(This is a scripted battle, so you're going to lose and get embarrassed... c: )");
         // display names
         TimeUnit.SECONDS.sleep(2);
         // while true for scripted battle and unique code for this part
@@ -320,7 +325,7 @@ public class Main {
         boolean battleActive = true;
         while (battleActive)
         {
-            firstMonster.printMonster();
+            firstMonster.printDragonMonster();
             int randomDamagePlus = (int)((Math.random() * 200) + 100);
             System.out.println("\n" + mainName + "'s HP: " + mainHP);
             System.out.println();
@@ -354,11 +359,11 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("Sun: I expected more from you, " + mainName);
         TimeUnit.SECONDS.sleep(2);
-        System.out.println(mainName + ": You guys too? Come on, that was my first battle");
+        System.out.println(mainName + ": You guys too? Come on, that was my first battle.");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("Moon: Yeah, and you lost so fast");
+        System.out.println("Moon: Yeah, and you lost so fast...");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("Sun: I guess you tried your best, " + mainName);
+        System.out.println("Sun: I guess you tried your best, " + mainName + ".");
         TimeUnit.SECONDS.sleep(2);
         System.out.println(mainMonster + ": You know what? I won't destroy the village now... our battle was very fun, " + mainName + ". Until we meet again...");
         TimeUnit.SECONDS.sleep(2);
@@ -438,7 +443,575 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("???: I know you can hear me...");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("\nThis is the end of the demo. I know it felt a little short and rushed, but I will add more later on.\n");
-        System.out.println("Look out for future updates!");
+        // old text from demo, should delete
+        // System.out.println("\nThis is the end of the demo. I know it felt a little short and rushed, but I will add more later on.\n");
+        // System.out.println("Look out for future updates!");
+        System.out.println(mainName + ": Moon, or Sun, could you guys knock it off...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("???: You're funny.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("???: You want to get stronger, right?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nHow do they know that..?\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Where did you hear that?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("???: That is something I can't say.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("???: If you want to get stronger, do as I say.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nShould I trust this... thing?\n");
+        TimeUnit.SECONDS.sleep(2);
+        // first decision
+        System.out.println("You are about to make your first story changing decision... depending on what your choice is, the story will be changed accordingly...");
+        TimeUnit.SECONDS.sleep(5);
+        System.out.println("\n1. Do as they say.");
+        TimeUnit.SECONDS.sleep(5);
+        System.out.println("2. Close your eyes");
+        TimeUnit.SECONDS.sleep(5);
+        int firstStoryChoice = input.nextInt();
+        if(firstStoryChoice == 1)
+        {
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println(mainName + ": Okay, I'll do as you say...");
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println("???: Heh, I'll keep my eyes on you.");
+        }
+        else if(firstStoryChoice == 2)
+        {
+            TimeUnit.SECONDS.sleep(2);
+            System.out.print("\nI don't think I should interact with them, time to close my eyes...\n");
+        }
+        else
+        {
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println("(Next time, type any of the numbers shown... just for that, you will not be getting the special text. >:( )");
+            firstStoryChoice = (int)((Math.random() * 2) + 1);
+        }
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nHave I made the right choice?\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("(You feel... scared.)\n");
+        TimeUnit.SECONDS.sleep(2);
+        // end of chapter 4
+        // start of chapter 5
+        System.out.println("Chapter 5: ???\n");
+        TimeUnit.SECONDS.sleep(5);
+        System.out.println("Where am I?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\n(You woke up, all you can see is a dark, empty abyss.)\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Why am I here?\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("???: We meet again... " + mainName);
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": You... what are you doing here?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("???: Does that really matter?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": It does to me.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("???: I never introduced myself, haven't I?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("This is my chance to learn more about this thing..!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Yeah, that's true.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": You know everything about me, but I barely know anything about you...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("???: I guess I could tell you.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: I am the almightly being known as Holy Cat...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nHoly... Cat?\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Holy Cat? That's an interesting name.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: Yeah, I need your help, " + mainName + ".");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Huh? My help?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Why me?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: You were chosen...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Chosen? Me? Are you sure you have the right guy?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: The book doesn't lie, you, " + mainName + ", are the chosen one.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: I have a task for you.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nA task? For me?\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: Yes, you must... protect the village.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + "Protect the village? How am I supposed to do that?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: I can't be here for much longer...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Why not? Why can't you stay?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: Take this book, it'll have all the information you need. Until we meet again.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Wait..!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\n(You hear the sound of glass shattering...)\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("What's happening???\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\n(You open your eyes, you see that you're inside the cabin, with a book in your hand.)\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Was it just a dream?\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("No, I have the book in my hand...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("So then...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("What was that..?\n");
+        TimeUnit.SECONDS.sleep(2);
+        // end of chapter 5
+        // start of chapter 6
+        System.out.println("Chapter 6: The rise of the hero\n");
+        TimeUnit.SECONDS.sleep(5);
+        System.out.println("Moon: Hey " + mainName + ", we're back!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: We had some pudding for you, but Moon got hungry and ate half of yours.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: That's not my fault! We were outside for like... 10 hours!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: You were only thinking about yourself.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Whatever, at least we still have the other snacks...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Oh right, someone came up to me and asked if I could gift this to you.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": A gift for me?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Yeah, I wasn't too sure myself...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: You can choose whether you want it or not.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Well, alright.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nI think I should...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("1. Keep it");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("2. Toss it");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("3. Destroy it");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("4. Scan it");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("5. Eat it");
+        TimeUnit.SECONDS.sleep(2);
+        int secondStoryChoice = input.nextInt();
+        if(secondStoryChoice == 1)
+        {
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println(mainName + ": I think I'll keep it for now.");
+        }
+        else if(secondStoryChoice == 2)
+        {
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println(mainName + ": I think I'll just toss it somewhere.");
+        }
+        else if(secondStoryChoice == 3)
+        {
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println(mainName + ": I think I should destroy this gift for good.");
+        }
+        else if(secondStoryChoice == 4)
+        {
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println(mainName + ": I think I should scan the gift, just to be safe.");
+        }
+        else if(secondStoryChoice == 5)
+        {
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println(mainName + ": I have made the executive decision to... eat the gift.");
+        }
+        else
+        {
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println(mainName + ": I think I will twirl around in circles.");
+            secondStoryChoice = 5;
+        }
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Wow, I shouldn't judge you for your decision. I think we should just give it back to the sender.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Thanks, I guess..?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Ignore Moon, I think the choice you made is right.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Wow, picking sides now?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Sorry.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: I guess I could forgive you.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Moon, Sun, can you tell me how you two met?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": I'm just curious...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Well...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: We used to work together. We were co-workers.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Everything was going so well, we were working on something important.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Yeah, that important thing caused us our jobs.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Oh, I'm sorry...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Why are you sorry?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: You didn't do anything " + mainName + ". No need to be sorry.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: It wasn't any of our faults, it was the company's.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Yeah, never working for them again...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": If you don't mind me asking, what was the company's name?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: I wish I could tell you, but that was about...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: 10 years ago...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Honestly, it felt like yesterday to me.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Wow, that's insane...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Yep, it is.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: We're getting off topic, we need to talk about you " + mainName + ", how are you?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": I'm... alive. I think I need some more rest, tomorrow is an important day.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: That's right! It's important you are in good condition for tomorrow.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: True that.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Have a good night, " + mainName + ".");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Night " + mainName + ".");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nShould I tell them..?\n");
+        // end of chapter 6
+        // start of chapter 7
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Chapter 7: A hero's duty\n");
+        TimeUnit.SECONDS.sleep(5);
+        System.out.println("Holy Cat: " + mainName + ", you need to act fast...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: Something is coming for you.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: I wrote something down on your notepad.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: If you need something, write on the notepad.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: Good luck, " + mainName + ".");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Thanks Holy Cat!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: " + mainName + "? What was that?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Is something up?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nI think it's best not to tell them...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Oh, it's nothing!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Uh huh.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: No need to lie...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: It's pretty obvious...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Sorry.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": I'll tell you guys when I'm ready.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: You better, I'm interested.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Me too!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Yeah, yeah...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": I'll think about it.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: Do you think it's a good idea to tell your friends?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: I added some more stuff on your notebook, check whenever.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nHuh. Should I check my notebook now?\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("1. Open your notebook.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("2. Don't open your notebook.");
+        TimeUnit.SECONDS.sleep(2);
+        int firstNotebook = input.nextInt();
+        if(firstNotebook == 1)
+        {
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println("\n(You open the notebook...)\n");
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println("Holy Cat: Your goal is to save the village as of right now, you can do that by getting stronger.");
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println("Holy Cat: To get stronger, you could ask your friends to spar with you.");
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println("Holy Cat: Another way to get stronger is to climb the mountain near the village, alone.");
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println("Holy Cat: There is another way, but as of right now, you have to discover that one on your own.");
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println("Holy Cat: Good luck, " + mainName + ".");
+        }
+        if(firstNotebook == 2)
+        {
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println("\n(You save the notebook for another day... hopefully.)\n");
+        }
+        else
+        {
+            TimeUnit.SECONDS.sleep(2);
+            System.out.println("\n(You stand there... and do nothing.)\n");
+        }
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Well, what should I do next?\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("(You hear the sounds of a bell ringing...)\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Is that monster back?\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("I think I should go check it out...");
+        TimeUnit.SECONDS.sleep(2);
+        // first weapon
+        String heroWeapon = "Old Broomstick";
+        System.out.println("\n(You find an old broomstick next to the cabin door.)\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("I think I'll pick this up, just in case.\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("(You open the door and see some evil mice at the door.)");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Evil Mice: *speaks in mice in an angry tone*");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nIs my second fight, really going to be against mice..?\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": This really isn't a good start to my journey...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("- This is your (technically) first real battle.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("- There's absolutely no way you can lose, this is not a challenge.");
+        TimeUnit.SECONDS.sleep(2);
+        // first real monster battle - mice
+        Monster mice = new Monster("Evil Mice", 10, "Small bite", 1);
+        // battle loop
+        while(battleActive)
+        {
+            TimeUnit.SECONDS.sleep(2);
+            mice.printMiceMonster();
+
+            TimeUnit.MILLISECONDS.sleep(500);
+            System.out.println("\nWhat will you do?\n");
+            TimeUnit.MILLISECONDS.sleep(500);
+            System.out.println("1. Attack");
+            TimeUnit.MILLISECONDS.sleep(500);
+            System.out.println("2. Guard");
+            TimeUnit.MILLISECONDS.sleep(500);
+            System.out.println("3. Flee");
+            TimeUnit.MILLISECONDS.sleep(500);
+            
+            int userPick = input.nextInt();
+            if(userPick == 1)
+            {
+                int weaponDamage = (int)((Math.random() * 10) + 1);
+                TimeUnit.SECONDS.sleep(2);
+                System.out.println(mainName + " attacked " + mice.getName() + " with a " + heroWeapon + " for " + weaponDamage + " damage!");
+                mice.setHealth(weaponDamage);
+                if(mice.getHealth() <= 0)
+                {
+                    break;
+                }
+            }
+            if(userPick == 2)
+            {
+                TimeUnit.SECONDS.sleep(2);
+                System.out.println(mainName + " gets into a guard position. (Why are you guarding against mice..?)");
+            }
+            if(userPick == 3)
+            {
+                TimeUnit.SECONDS.sleep(2);
+                System.out.println("You cannot flee from the " + mice.getName() + "...");
+            }
+            else
+            {
+                TimeUnit.SECONDS.sleep(2);
+                System.out.println("Type a number provided...");
+            }
+
+            System.out.println(mice.getName() + " attacks using " + mice.getAttack() + ", it does 0 damage...");
+        }
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Stupid mice... distracting me...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Even though it wasn't much, I feel a little bit stronger...");
+        TimeUnit.SECONDS.sleep(2);
+        protagonist.setLevel(2);
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: Great job, " + mainName + ". You did a good job getting those mice.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Thanks Holy Cat! What should I do next?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: As the chosen one, I believe you know the answer to that.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nRight, I'm the chosen one.\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": I don't want to lie to you Holy Cat, but honestly...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": I have no idea what to do...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: Huh, that's strange.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: I'll give you some advice. If you don't know what to do, think about what's important to you.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": What's important... to me?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nI need to think...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Well, these new friends of mine are important so...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nI need to protect them...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Holy Cat, I've made up my mind.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: Good. That's good.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: There's a reason why you're the chosen one, " + mainName);
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": I guess...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: I'll be leaving now, good luck.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Thanks for the help Holy Cat!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nI don't understand you Holy Cat, but maybe someday I will...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("(You head back to the cabin and see Moon and Sun.)\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: " + mainName + "! Where did you go?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Yeah, where did you go?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": I heard something and went to go check it out...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": I didn't know you guys would worry that much...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Who wouldn't be worried?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Next time, tell us.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: How would you feel if someone you cared about just disappeared?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Sorry guys, I just felt like I had to check it out.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Anyways, I actually won my first battle!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon and Sun: Really?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: I didn't know you were a comedian...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Moon...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": For real! I actaully did something.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Are you guys proud?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: I guess we are?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Good job!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Heh, it was nothing.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": No big deal or anything...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: Yeah...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Yep! 100%!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": I think we should get some rest, we're all drained.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Moon: I agree, but me and Sun have to do one more thing, so you can go ahead and go to bed " + mainName + ".");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Oh, okay...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + "Stay safe!");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Sun: Don't worry, we will.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\n(Sun and Moon leave the cabin)\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Finally, time for bed...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: Get some sleep, " + mainName + ", you deserve it.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Thanks Holy Cat...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": For helping me out so much...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: It's my duty to help you.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: The chosen one.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: One day, you'll be strong enough to end that monster's life...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Wait...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\n...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Oh... right!\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("I forgot all about that monster...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("It... makes me mad... thinking about what happened.\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("I could've done something...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("...but I didn't.\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("I want to get stronger.\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("No...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("I need to get stronger...\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: Is something the matter?");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: I sense something coming from you.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: Whatever it is, you must disregard it. I have a feeling it's related to that monster.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Well, you're not wrong.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": I shouldn't get too worked up...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println(mainName + ": Anyways, I need to get to bed.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: You're right. I'm here if you need anything, " + mainName + ".");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy Cat: Hopefully you feel better tomorrow.");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("Holy: There is a lot of work to do...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("\nHere's hoping tomorrow will be a good day...");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("(You close your eyes, and head to sleep.)\n");
+        TimeUnit.SECONDS.sleep(2);
+        // end of chapter 7
+        // start of chapter 8
+        System.out.println("(Chapter 8 will be coming out in the next big update :D)\n");
+        TimeUnit.SECONDS.sleep(5);
+        System.out.println("Thanks for playing the second demo of The Adventures of Silly Cat! Next update will come out when I'm ready :p");
+        TimeUnit.SECONDS.sleep(2);
+        // thanks for playing
     }
 }

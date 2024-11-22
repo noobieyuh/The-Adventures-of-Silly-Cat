@@ -3,8 +3,9 @@ public class MainCharacter
     private String name;
     private String role;
     private int health;
+    private int level;
 
-    public MainCharacter(String name, String role, int health)
+    public MainCharacter(String name, String role, int health, int level)
     {
         this.name = name;
         this.role = role;
@@ -26,6 +27,20 @@ public class MainCharacter
     public int getHealth()
     {
         return health;
+    }
+
+    public int getLevel()
+    {
+        return level;
+    }
+
+    public void setLevel(int level)
+    {
+        this.level = level;
+        if(this.level > level)
+        {
+            System.out.println("Level up! " + name + " is now level " + level + "!");
+        }
     }
 
     // Awaken role - best role in game
