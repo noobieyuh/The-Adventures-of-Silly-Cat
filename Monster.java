@@ -59,7 +59,7 @@ public class Monster
 
     public void printMiceMonster()
     {
-        System.out.println("Monter name: " + name);
+        System.out.println("Monster name: " + name);
         System.out.println("Level: " + level);
         System.out.println();
         // mice
@@ -71,6 +71,44 @@ public class Monster
         System.out.println("\\{o o}/     ");
         System.out.println(" =\\o/=");
         System.out.println("  ^ ^");
+    }
+
+    public void printOldManMonster()
+    {
+        System.out.println("Monster name: " + name);
+        System.out.println("Level: " + level);
+        System.out.println();
+        // old man
+        System.out.println("               ,");
+        System.out.println("            ,:' `..;");
+        System.out.println("            `. ,;;'%");
+        System.out.println("            +;;'%%%%%");
+        System.out.println("             /- %,)%%");
+        System.out.println("             `   \\ %%");
+        System.out.println("              =  )/ \\");
+        System.out.println("              `-'/ / \\");
+        System.out.println("                /\\/.-.\\");
+        System.out.println("               |  (    |");
+        System.out.println("               |  |   ||");
+        System.out.println("               |  |   ||");
+        System.out.println("           _.-----'   ||");
+        System.out.println("          / \\________,'|");
+        System.out.println("         (((/  |       |");
+        System.out.println("         //    |       |");
+        System.out.println("        //     |\\      |");
+        System.out.println("       //      | \\     |");
+        System.out.println("      //       |  \\    |");
+        System.out.println("     //        |   \\   |");
+        System.out.println("    //         |    \\  |");
+        System.out.println("   //          |    |\\ |");
+        System.out.println("  //           |    | \\|");
+        System.out.println(" //            \\    \\");
+        System.out.println("c'             |\\    \\");
+        System.out.println("               | \\    \\");
+        System.out.println("               |  \\    \\");
+        System.out.println("               |.' \\    \\");
+        System.out.println("              _\\    \\.-' \\  ");
+        System.out.println("             (___.-(__.'\\/");
     }
 
     public void setHealth(int mainAttack)
