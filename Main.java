@@ -50,7 +50,7 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println("(You see a black cat holding their paw out.)");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("???: Finally, it took me " + (int)((Math.random() * 60) + 2) + " minutes to wake you up!");
+        System.out.println("???: Finally, it took me " + (int)((Math.random() * 30) + 2) + " minutes to wake you up!");
         TimeUnit.SECONDS.sleep(2);
         // name
         System.out.println("???: So, what's your name?\n");
@@ -86,15 +86,15 @@ public class Main {
         String userRole = "";
         System.out.println("...My purpose here? I was a...\n");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("1. Wizard - A powerful being able to conjure spells. (More magicial skills down the line)");
+        System.out.println("1. Wizard - A powerful entity able to conjure spells. (Obtain more magicial skills down the line.)");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("2. Warrior - Swords and shields, you can move and fight. (Base weapon damage +10)");
+        System.out.println("2. Warrior - Swords and shields, you can move and fight. (Main weapon does 10 more damage, can be upgraded.)");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("3. Tank - Big and bad. You can take a hit. (More health, less movement...)");
+        System.out.println("3. Tank - Big and bad. You can take a hit. (More health available, less movement...)");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("4. Thief - Thiefs take goodies you can use anytime. (You will be able to take items from enemies, not now, but later)");
+        System.out.println("4. Thief - Thiefs take goodies you can use anytime. (You will be able to take items from enemies, not now, but later.)");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("5. Average Joe - Civilian level... (No advantages, no disadvantages)\n");
+        System.out.println("5. Average Joe - Civilian level... (No advantages, no disadvantages...)\n");
         TimeUnit.SECONDS.sleep(2);
         // selecting roles
         int roleSelect = input.nextInt();
@@ -1719,6 +1719,9 @@ public class Main {
         TimeUnit.SECONDS.sleep(2);
         System.out.println(mainName + ": It looks really nice!");
         TimeUnit.SECONDS.sleep(2);
-        System.out.println("");
+        System.out.println("\nShould I tell them what it does..?\n");
+        TimeUnit.SECONDS.sleep(2);
+        System.out.println("To be continued...");
+        TimeUnit.SECONDS.sleep(2);
     }
 }
